@@ -8,7 +8,7 @@
 }
 
 #main {
-    background: url(./images/orangeback.webp);
+    background-image: url(./images/orangeback.webp);
     width: 100%;
     height: 100vh;
     display: grid;
@@ -29,6 +29,7 @@
     top: 0;
     left: 0;
     background-color: rgb(255, 144, 100);
+    opacity: 0.9;
 
 }
 
@@ -61,10 +62,15 @@
     border: 1px solid;
     letter-spacing: 1.5px;
     cursor: pointer;
+    
 
 }
+#lets a{
+    text-decoration: none;
+    color: inherit;
+}
 
-#lets:hover {
+#lets:hover,#lets a:hover {
     transition: background ease-in 400ms;
     background-color: white;
     color: rgb(255, 144, 100);
@@ -113,10 +119,15 @@
     border: 2px solid white;
     border-radius: 10px;
     cursor: pointer;
+    
 
 }
+#summary button a{
+    text-decoration: none;
+    color: inherit;
+}
 
-#summary button:hover {
+#summary button:hover , #summary button a:hover{
     background-color: transparent;
     color: white;
     transition: background ease-in 400ms;
@@ -180,6 +191,13 @@ hr {
     border-radius: 50%;
 }
 
+.outintro+p{
+    text-align: center;
+    font-size: 30px;
+    margin: 20px auto;
+    
+    
+}
 .intro h1 {
     padding-bottom: 10px;
 }
@@ -240,22 +258,97 @@ hr {
     margin: auto;
     padding: 40px 0px;
     align-items: center;
+    gap: 10px;
 
 
 
 
 }
 
+#skills>div div{
+    height: 150px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
 #skills>div img {
-    width: 50%;
+    width: 100px;
+}
+#skills>div div:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
 
 #projects {
-    height: 120vh;
-    background-color: rgb(17, 17, 17);
+ background-size: contain;
+    /* background-image: url(./images/vectorblack.jpg); */
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0,0,0,.8)),
+    url('./images/b1.jpg');
+    color: white;
+    background-attachment: fixed;
+}
+
+#projects>div{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    column-gap: 8%;
+    width: 90%;
+    padding: 50px 0;
+    margin: auto;
+    align-items: center;
+    /* border: 1px solid;
+    border-radius: 10px;
+    padding: 10px; */
+}
+#projects>div img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+#projects button{
+    font-weight: bold;
+}
+
+.pright > p{
+    margin: 20px 0px;
+    font-size: 13px;
+    text-align: justify;
+    color: rgb(219, 213, 200);
+    font-family: "Roboto Condensed", sans-serif;
+}
+.pright   button{
+    background-color: aquamarine;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.pright   button a{
+   text-decoration: none;
+   color: black;
+   font-weight: bold;
 
 }
+.pright button:hover{
+   
+    cursor: pointer;
+    background-color: rgb(17, 202, 141);
+    transition: all ease-in 250ms;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -282,10 +375,15 @@ hr {
     display: grid;
     row-gap: 10px;
 }
+.cleft img{
+    width: 20px;
+}
 
-.cleft>div {
+.cleft>div a {
     display: flex;
     column-gap: 20px;
+    text-decoration: none;
+    color: black;
 }
 
 .cright {
@@ -325,4 +423,31 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.streaks{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.streaks>img{
+    width: 100%;
+    
+    
+}
+.lang{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.gitcal{
+    background-color: #504f4f;
+    width: 100%;
+   display: flex;
+   justify-content: center;
+    color: white;
+    font-size: 25px;
+    font-family: "Roboto Condensed", sans-serif;
 }
