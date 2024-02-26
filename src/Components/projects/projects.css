@@ -7,7 +7,7 @@
 .portfolio_item {
   background: var(--color-bg-variant);
   padding: 1.3rem;
-  border-radius: 2rem;
+  border-radius: 1rem;
   border: 1px solid var(--color-primary-variant);
   transition: var(--transition);
 }
@@ -18,7 +18,7 @@
 }
 
 .portfolio_item-image {
-  border-radius: 1.5rem;
+  border-radius: 0.5rem;
   overflow: hidden;
 }
 

@@ -42,6 +42,14 @@ const Skills = () => {
                 <small className="text-light">Beginner</small>
               </div>
             </article>
+
+            <article className="experince_details">
+              <BsPatchCheckFill />
+              <div>
+                <h4>TanStack Table</h4>
+                <small className="text-light">Beginner</small>
+              </div>
+            </article>
           </div>
         </div>
         <div className="experince_backend">
@@ -82,6 +90,13 @@ const Skills = () => {
               <BsPatchCheckFill />
               <div>
                 <h4>JDBC</h4>
+                <small className="text-light">Intermidiate</small>
+              </div>
+            </article>
+            <article className="experince_details">
+              <BsPatchCheckFill />
+              <div>
+                <h4>Spring Security</h4>
                 <small className="text-light">Intermidiate</small>
               </div>
             </article>

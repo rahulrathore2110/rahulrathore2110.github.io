@@ -8,9 +8,20 @@ import redbus from "../../assets/redbus.png";
 import sbi from "../../assets/sbi1.png";
 import vichar from "../../assets/vichar.png";
 import tasky from "../../assets/tasky.png";
+import dgloan from "../../assets/dgloan.PNG";
 const Projects = () => {
 
   const data = [
+    {
+      id: 7,
+      image: dgloan,
+      title: "DG Loan App",
+      description:
+        "DG Loan App is a kind of company CRM system. This app helps a client to manage their all loans, EMI, and Customer Details. where the company handles all configurations related to their customer and loans.",
+      tech: "Java | Spring-boot | Railway | Hibernate | MySQL | React.Js | Spring-MVC | Maven | Postman | Spring-JPA | Spring Security | Tailwind CSS | Tanstack Table | Postman | Intellij-idea | Ohter react Library",
+      github: "https://github.com/rahulrathore2110/DG-Loan-Backend",
+      demo: "https://dgloan.netlify.app/",
+    },
     {
       id: 1,
       image: vichar,
