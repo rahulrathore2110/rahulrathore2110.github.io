@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.c7112627.css",
-    "main.js": "/static/js/main.d640cbf3.js",
+    "main.css": "/static/css/main.db5aa01f.css",
+    "main.js": "/static/js/main.4c0915c5.js",
     "static/media/bluefly.png": "/static/media/bluefly.83aa67418bf741d02488.png",
     "static/media/profile4.JPG": "/static/media/profile4.32783510aa95ecabfedf.JPG",
     "static/media/prfile5.png": "/static/media/prfile5.e7c1f13b4dd4f046cdf4.png",
     "static/media/redbus.png": "/static/media/redbus.a7c1545ed2e93db6f938.png",
     "static/media/engagebay.png": "/static/media/engagebay.dbd7d9b01e4ccc0ab5ff.png",
-    "static/media/fw19_0322_Rahul_Rathore_Resume.pdf": "/static/media/fw19_0322_Rahul_Rathore_Resume.4ab72e99ff851be3be46.pdf",
+    "static/media/dgloan.PNG": "/static/media/dgloan.10df4095887430b3e8e4.PNG",
     "static/media/vichar.png": "/static/media/vichar.950e8a9100540f92222c.png",
     "static/media/bus.png": "/static/media/bus.9be01674ae97feae761d.png",
     "static/media/food.png": "/static/media/food.9b084e3cb806573ef5bf.png",
     "static/media/tasky.png": "/static/media/tasky.c07c8a9669638cadcb9e.png",
     "static/media/sbi1.png": "/static/media/sbi1.d222caa5db3eda95ea93.png",
     "index.html": "/index.html",
-    "main.c7112627.css.map": "/static/css/main.c7112627.css.map",
-    "main.d640cbf3.js.map": "/static/js/main.d640cbf3.js.map"
+    "main.db5aa01f.css.map": "/static/css/main.db5aa01f.css.map",
+    "main.4c0915c5.js.map": "/static/js/main.4c0915c5.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7112627.css",
-    "static/js/main.d640cbf3.js"
+    "static/css/main.db5aa01f.css",
+    "static/js/main.4c0915c5.js"
   ]
 }
