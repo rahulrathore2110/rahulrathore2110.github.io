@@ -30,7 +30,7 @@ const Projects = () => {
         "Vichar App is a blog application where users can post their thoughts with some content and picture attached to posts and also comment on posts.",
       tech: "Java, Spring-boot, AWS (Elastic Beanstalk), Hibernate, MySQL, Swagger-ui, Spring-MVC, Maven, Postman, Spring-JPA, Intellij-idea.",
       github: "https://github.com/rahulrathore2110/Vichar-App",
-      demo: "http://vichar-env-2.eba-kyekgnmj.ap-south-1.elasticbeanstalk.com/swagger-ui/index.html#/",
+      demo: "https://github.com/rahulrathore2110/Vichar-App",
     },
     {
       id: 2,
@@ -40,7 +40,7 @@ const Projects = () => {
         "Online Bus Adda is a bus reservation app where you can book a bus for each and every location as per your needs. also check buses details and admin can add, update bus details.",
       tech: "Java, Spring-boot, AWS (Elastic Beanstalk), Hibernate, MySQL, Swagger-ui, Spring-MVC, Maven, Postman, Spring-JPA, Intellij-idea.",
       github: "https://github.com/rahulrathore2110/Tasky-App",
-      demo: "http://tasky-app-env.eba-pzihaw2t.ap-south-1.elasticbeanstalk.com/swagger-ui/index.html",
+      demo: "https://github.com/rahulrathore2110/Tasky-App",
     },
     {
       id: 3,
@@ -50,7 +50,7 @@ const Projects = () => {
         "Online Bus Adda is a bus reservation app where you can book a bus for each and every location as per your needs. also check buses details and admin can add, update bus details.",
       tech: "Java, Spring-boot, AWS (Elastic Beanstalk), Hibernate, MySQL, Swagger-ui, Spring-MVC, Maven, Postman, Spring-JPA, Intellij-idea.",
       github: "https://github.com/rahulrathore2110/Online-bus-adda",
-      demo: "http://onlinebusadda-env.eba-22hsm2bq.ap-south-1.elasticbeanstalk.com/swagger-ui/index.html",
+      demo: "https://github.com/rahulrathore2110/Online-bus-adda",
     },
     {
       id: 4,

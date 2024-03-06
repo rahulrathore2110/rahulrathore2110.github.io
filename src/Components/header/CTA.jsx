@@ -6,6 +6,10 @@ const CTA = () => {
         href="https://drive.google.com/file/d/1RxuYQCSzhPSjtLeMdwnr_0ewbKYCZbWo/view?usp=share_link"
         className="btn"
         target="blank"
+        onClick={() =>
+          `https://drive.google.com/file/d/1RxuYQCSzhPSjtLeMdwnr_0ewbKYCZbWo/view?usp=share_link`
+        }
+        download
       >
         Download CV
       </a>

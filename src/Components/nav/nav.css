@@ -9,25 +9,32 @@ nav{
     transform: translate(-50%);
     bottom: 3rem;
     display: flex;
-    gap: 0.5rem;
+    gap: 0.1rem;
     border-radius: 3rem;
     backdrop-filter: blur(15px);
 }
 
 nav a{
     background: transparent;
-    padding: 0.7rem;
-    border-radius: 50%;
+    padding: 0.2rem 0.4rem;
     display: flex;
     color: var(--color-light);
     font-size: 1.1rem;
 }
 
 nav a:hover{
-    background: rgba(0,0,0,0.3);
+    color: var(--color-primary);
 }
 
 nav a.active{
-    background: var(--color-primary);
-    color: var(--color-bg);
+    /* background: var(--color-primary); */
+    /* color: var(--color-bg); */
+    border-bottom: 1px solid;
+    color: inherit;
+}
+
+@media screen and (max-width: 1024px) {
+    nav a{
+    font-size: 0.8rem;
+}
 }

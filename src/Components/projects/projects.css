@@ -36,7 +36,7 @@ margin-bottom: 1rem;
 
 /* =============== MEDIA QURIES (MEDIUM DEVICES) =============== */
 
-@media screen and (max-width : 1024px) {
+@media screen and (max-width : 1224px) {
 .portfolio_container{
     grid-template-columns: repeat(2,1fr);
     gap: 1.2rem;
